@@ -50,6 +50,11 @@ export default {
         href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
         media: 'print',
         onload: `this.media='all'`
+      },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'https://rsms.me/inter/inter.css'
       }
     ], // ? Imports the font 'Inter', can be optimized by the netlify plugin 'Subfont' by uncommenting it in `netlify.toml`
     noscript: [

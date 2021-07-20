@@ -15,7 +15,12 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@headlessui/vue": "^1.2.0",
+    "@heroicons/vue": "^1.0.1",
     "@nuxt/content": "^1.13.1",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
     "nuxt": "^2.15.0"
   },
   "devDependencies": {
@@ -34,7 +39,7 @@
     "postcss-nesting": "^7.0.1",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^1.16.4",
-    "tailwindcss": "^1.9.6",
+    "tailwindcss": "^2.2.4",
     "tailwindcss-dark-mode": "^1.1.7",
     "vue-content-placeholders": "^0.2.1"
   }
